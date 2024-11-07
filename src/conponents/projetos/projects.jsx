@@ -5,16 +5,15 @@ const Projetos = () => {
     <section id="projetos">
       <h2>Projetos</h2>
       <div className="projeto">
-        <h3>bank-java-jdbc</h3>
-        <p>Banco de dados, feito em java para guardar saldo de usuarios. </p>
-        <a href="https://github.com/TeJoT4/-bank-java-jdbc.git">Ver Projeto</a>
+        <h3>Sistema de Banco</h3>
+        <p>Banco de dados feito em java para simular um serviço bancário. </p>
+        <a href="https://github.com/wrierthrone/bank-java-jdbc">Ver Projeto</a>
       </div>
       <div className="projeto">
-        <h3></h3>
-        <p></p>
-        <img src=""/>
+        <h3>Cátalogo de filmes</h3>
+        <p>Sistema em java para catalogar filmes e suas informações principais.</p>
+        <a href="https://github.com/wrierthrone/java-catalogo-de-filme">Ver Projetos</a>
       </div>
-      {/* Adicione mais projetos conforme necessário */}
     </section>
   );
 };

@@ -10,7 +10,7 @@ const Contato = () => {
         <textarea placeholder="Sua Mensagem" required></textarea>
         <button type="submit">Enviar</button>
       </form>
-      <p>Ou me encontre nas redes sociais: [links]</p>
+      <p>Ou me encontre nas redes sociais: <a href="https://github.com/wrierthrone">Github</a></p>
     </section>
   );
 };
